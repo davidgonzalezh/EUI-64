@@ -13,13 +13,15 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 
 ## Screenshots
 
-![Screenshot 1](images/screenshot2.png)
+<p align="center">
+  <img src="images/screenshot1.png" alt="Main interface of the EUI-64 IPv6 Address Generator">
+  <br>Main interface of the EUI-64 IPv6 Address Generator
+</p>
 
-*Main interface of the EUI-64 IPv6 Address Generator*
-
-![Screenshot 2](images/screenshot1.png)
-
-*Detailed process explanation in the help screen*
+<p align="center">
+  <img src="images/screenshot2.png" alt="Detailed process explanation in the help screen">
+  <br>Detailed process explanation in the help screen
+</p>
 
 ## Requirements
 - Python 3.x
