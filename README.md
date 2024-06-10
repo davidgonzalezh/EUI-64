@@ -60,15 +60,13 @@ You can download the portable executable directly from the following link:
 Run the executable file located in the `dist/` directory:
 ```sh
 ./dist/EUI64IPv6Generator
-
-# License
+```
+## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License. See the LICENSE file for details.
 Author
 
-### David Gonzalez
+- David Gonzalez [LAMBDA Strategies]https://www.lambdastrategies.com
 ### Created in 2024
-
-# Company
 
 [LAMBDA Strategies]https://www.lambdastrategies.com
