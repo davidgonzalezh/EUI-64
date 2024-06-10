@@ -11,6 +11,14 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 - Validates MAC address and IPv6 prefix format
 - Provides a portable executable version
 
+## Screenshots
+
+![Screenshot 1](images/screenshot1.png)
+*Main interface of the EUI-64 IPv6 Address Generator*
+
+![Screenshot 2](images/screenshot2.png)
+*Detailed process explanation in the help screen*
+
 ## Requirements
 - Python 3.x
 - Tkinter (if running from source)
@@ -61,11 +69,10 @@ Run the executable file located in the `dist/` directory:
 ```sh
 ./dist/EUI64IPv6Generator
 ```
-## License
+# License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License. See the LICENSE file for details.
 Author
 
-- David Gonzalez [LAMBDA Strategies](https://www.lambdastrategies.com)
+- David Gonzalez 2024 [LAMBDA Strategies](https://www.lambdastrategies.com)
 
-#### Created in 2024
