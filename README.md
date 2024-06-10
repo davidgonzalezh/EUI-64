@@ -9,17 +9,17 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 - Help button providing detailed instructions
 - Generates full IPv6 address based on user input
 - Validates MAC address and IPv6 prefix format
-- Provides a portable executable version
+- Provides a portable executable version with a custom icon
 
 ## Screenshots
 
 <p align="center">
-  <img src="images/screenshot2.png" alt="Main interface of the EUI-64 IPv6 Address Generator">
+  <img src="images/screenshot1.png" alt="Main interface of the EUI-64 IPv6 Address Generator">
   <br>Main interface of the EUI-64 IPv6 Address Generator
 </p>
 
 <p align="center">
-  <img src="images/screenshot1.png" alt="Detailed process explanation in the help screen">
+  <img src="images/screenshot2.png" alt="Detailed process explanation in the help screen">
   <br>Detailed process explanation in the help screen
 </p>
 
@@ -54,12 +54,12 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 
 2. Build the Executable:
     ```sh
-    pyinstaller --name EUI64IPv6Generator --onefile eui64_ipv6_generator_v1.2.1.py
+    pyinstaller --name EUI64IPv6Generator --onefile --noconsole --icon=icon.ico eui64_ipv6_generator_v1.2.1.py
     ```
 
    If `pyinstaller` is not recognized, use:
     ```sh
-    python -m PyInstaller --name EUI64IPv6Generator --onefile eui64_ipv6_generator_v1.2.1.py
+    python -m PyInstaller --name EUI64IPv6Generator --onefile --noconsole --icon=icon.ico eui64_ipv6_generator_v1.2.1.py
     ```
 
 3. Find the executable in the `dist/` folder.
@@ -73,6 +73,21 @@ Run the executable file located in the `dist/` directory:
 ```sh
 ./dist/EUI64IPv6Generator
 ```
+## Windows Defender SmartScreen Warning
+
+You might encounter a SmartScreen warning when running the executable for the first time. This is because the app is unsigned.
+
+## Why Does This Warning Appear?
+
+The SmartScreen warning appears because the executable is not signed with a trusted digital certificate. Windows uses digital signatures to verify the identity of the software publisher. Without a signature, Windows cannot verify the source of the software, leading to the warning.
+
+## How to Bypass the Warning Safely
+
+- When you see the SmartScreen warning, click on "More info".
+- Click on "Run anyway".
+
+Rest assured, the application is safe to use and has been created and tested in a secure environment.
+
 # License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License. See the LICENSE file for details.
