@@ -13,10 +13,12 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 
 ## Screenshots
 
-![Screenshot 1](images/screenshot1.png)
+![Screenshot 1](images/screenshot2.png)
+
 *Main interface of the EUI-64 IPv6 Address Generator*
 
-![Screenshot 2](images/screenshot2.png)
+![Screenshot 2](images/screenshot1.png)
+
 *Detailed process explanation in the help screen*
 
 ## Requirements
