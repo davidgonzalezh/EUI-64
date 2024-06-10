@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['eui64_ipv6_generator_v1.2.1.py'],
+    ['eui64_ipv6_generator.py'],
     pathex=[],
     binaries=[],
     datas=[],
