@@ -42,7 +42,7 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 
 3. Run the Python script:
     ```sh
-    python eui64_ipv6_generator_v1.2.1.py
+    python eui64_ipv6_generator.py
     ```
 
 ### Creating the Portable Executable
@@ -54,12 +54,12 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 
 2. Build the Executable:
     ```sh
-    pyinstaller --name EUI64IPv6Generator --onefile --noconsole --icon=icon.ico eui64_ipv6_generator_v1.2.1.py
+    pyinstaller --name EUI64IPv6Generator --onefile --noconsole --icon=icon.ico eui64_ipv6_generator.py
     ```
 
    If `pyinstaller` is not recognized, use:
     ```sh
-    python -m PyInstaller --name EUI64IPv6Generator --onefile --noconsole --icon=icon.ico eui64_ipv6_generator_v1.2.1.py
+    python -m PyInstaller --name EUI64IPv6Generator --onefile --noconsole --icon=icon.ico eui64_ipv6_generator.py
     ```
 
 3. Find the executable in the `dist/` folder.
@@ -73,6 +73,7 @@ Run the executable file located in the `dist/` directory:
 ```sh
 ./dist/EUI64IPv6Generator
 ```
+
 ## Windows Defender SmartScreen Warning
 
 You might encounter a SmartScreen warning when running the executable for the first time. This is because the app is unsigned.
