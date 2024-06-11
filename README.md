@@ -33,7 +33,7 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/davidgonzalezh/EUI64-IPv6-Generator.git
+    git clone https://github.com/davidgonzalezh/EUI-64.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -66,7 +66,7 @@ This project provides a graphical user interface (GUI) tool for generating IPv6 
 
 ## Download Locations
 You can download the portable executable directly from the following link:
-- [Download EUI64IPv6Generator](https://github.com/davidgonzalezh/EUI64-IPv6-Generator/releases/latest)
+- [Download EUI64IPv6Generator](https://github.com/davidgonzalezh/EUI-64/releases/latest)
 
 ## Usage
 Run the executable file located in the `dist/` directory:
